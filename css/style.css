@@ -2031,5 +2031,225 @@ color: #ec2328
     }
 }
 
+.the-couple {
+    position: relative;
+    /*min-height: 300px*/
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+    z-index: 3;
+}
+
+    .the-couple.bride {
+        z-index: 2;
+    }
+
+    .the-couple.uncle {
+        flex-direction: row-reverse;
+    }
+
+        .the-couple.uncle .about-couple {
+            margin-right: -20px;
+        }
+
+    .the-couple.bride .about-couple {
+        margin-left: -20px;
+    }
+
+.about-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-couple-1 .about-top {
+    flex-direction: row-reverse;
+}
+
+    .about-couple-1 .about-top h3 {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+
+.couple-img {
+    border-radius: 50%;
+    display: inline-block;
+    width: 212px;
+    height: 212px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    border: 8px solid #fff;
+    box-shadow: 0 0 15px #eee;
+    flex: 0 0 auto;
+}
+
+    .couple-img h4 {
+        color: #fff;
+        background: #000;
+        text-transform: uppercase;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-align: center;
+        margin: 0 auto;
+        padding: 90px 7px;
+        opacity: 0;
+        font-size: 28px;
+        font-family: dosis, sans-serif;
+        transition: all ease-in-out .3s
+    }
+
+.the-couple:hover .couple-img h4 {
+    opacity: .7;
+    transition: all ease-in-out .3s
+}
+
+.couple-img:before {
+    background: #fff;
+    content: "";
+    height: 70px;
+    left: -155px;
+    opacity: .2;
+    position: absolute;
+    top: 77%;
+    -webkit-transform: rotate(50deg);
+    -ms-transform: rotate(50deg);
+    -o-transform: rotate(50deg);
+    transform: rotate(50deg);
+    -webkit-transition: all 1s cubic-bezier(.19, 1, .22, 1);
+    -o-transition: all 1s cubic-bezier(.19, 1, .22, 1);
+    transition: all 1s cubic-bezier(.19, 1, .22, 1);
+    width: 300px;
+    z-index: 1
+}
+
+.the-couple:hover .couple-img:before {
+    left: 40%;
+    top: -14%
+}
+
+.about-couple {
+    /*position: absolute;*/
+    top: 15px;
+    right: 0;
+    width: calc(100% - 190px);
+}
+
+    .about-couple.about-couple-1 {
+        right: inherit;
+        left: 0
+    }
+
+    .about-couple h3 {
+        display: inline-block;
+        float: left;
+        margin-left: 20px
+    }
+
+.home-4 .about-couple h3 {
+    font-size: 21px
+}
+
+.cp-detail {
+    padding: 20px 30px;
+    border: 8px solid #fff;
+    /*margin-top: 45px;*/
+    box-shadow: 0 5px 35px #e4e4e4;
+    background: #fbfbfb;
+    border-radius: 10px
+}
+
+    .cp-detail p {
+        line-height: 2;
+        font-size: 16px;
+        margin-bottom: 0
+    }
+
+.cp-social ul {
+    display: inline-block;
+    float: right;
+    list-style: none;
+    padding-left: 0
+}
+
+.cp-social li {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: #fbfbfb;
+    border-radius: 50%;
+    margin: 0 4px;
+    transition: all .3s ease-in-out
+}
+
+    .cp-social li:hover {
+        background: #ec2328;
+        color: #fff;
+        transition: all .3s ease-in-out
+    }
+
+    .cp-social li a {
+        color: #ec2328;
+        font-size: 16px;
+        padding: 8px;
+        line-height: 30px;
+        transition: all .3s ease-in-out
+    }
+
+        .cp-social li a:hover {
+            color: #fff;
+            transition: all .3s ease-in-out
+        }
+
+#about-us.aboutus-inner {
+    padding-bottom: 70px
+}
+
+.aboutus-inner .the-couple {
+    margin-bottom: 60px;
+    display: inline-block;
+    width: 100%
+}
+
+    .aboutus-inner .the-couple.couple-bride {
+        margin-bottom: 0
+    }
+
+.aboutus-inner .about-couple {
+    width: 80%;
+    position: relative;
+    float: right
+}
+
+.couple-bride .couple-img,
+.couple-bride .about-couple h3 {
+    float: right;
+    padding-left: 0
+}
+
+.aboutus-inner .couple-bride .about-couple,
+.couple-bride .cp-social ul {
+    float: left
+}
+
+@media only screen and (max-width:1199px) {
+    .logo {
+        margin-top: 15px;
+    }
+
+    .couple-img {
+        width: 150px;
+        height: 150px
+    }
+
+    .about-couple {
+        width: calc(100% - 130px);
+    }
+}
+
 /*# sourceMappingURL=style.css.map */
 

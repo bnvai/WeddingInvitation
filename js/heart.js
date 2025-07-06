@@ -4,6 +4,9 @@ function createHeart() {
     heart.style.left = Math.random() * 100 + 'vw';
     heart.style.animationDuration = 2 + Math.random() * 3 + 's';
     heart.style.opacity = Math.random();
+    const size = Math.floor(Math.random() * 16) + 16;
+    heart.style.width = size + 'px';
+    heart.style.height = size + 'px';
     document.querySelector('.heart-container').appendChild(heart);
 
     setTimeout(() => {
