@@ -11,8 +11,9 @@
 
 .heart {
     position: absolute;
-    width: 32px;
-    height: 32px;
+    top: -40px;
+    width: 16px;
+    height: 16px;
     background-image: url("../images/heart.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -22,16 +23,20 @@
 
 @keyframes fall {
     0% {
-        transform: translateX(0) translateY(-100px) scale(0.8);
+        transform: translateX(0px) translateY(0px) scale(0.8);
         opacity: 1;
     }
 
-    50% {
-        transform: translateX(20px) translateY(50vh) scale(1);
+    30% {
+        transform: translateX(15px) translateY(30vh) scale(0.95);
+    }
+
+    60% {
+        transform: translateX(-20px) translateY(60vh) scale(1.05);
     }
 
     100% {
-        transform: translateX(-10px) translateY(100vh) scale(1.2);
+        transform: translateX(10px) translateY(100vh) scale(1.2);
         opacity: 0;
     }
 }
