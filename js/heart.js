@@ -18,4 +18,4 @@ setInterval(() => {
     if (Math.random() < 0.4) {
         createHeart();
     }
-}, 700);
+}, 500);
