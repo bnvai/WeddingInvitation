@@ -4,10 +4,9 @@
     "\\.github",
     "\\css",
     "\\fonts",
-    "\\images",
     "\\js",
-    "\\sass"
+    "\\sass\\bootstrap"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\js\\google_map.js",
   "PreviewInSolutionExplorer": false
 }

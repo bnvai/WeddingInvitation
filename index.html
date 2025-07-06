@@ -6,22 +6,22 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Bang ❤️ Quynh - 21.08.2025</title>
+	<title>Bàng ❤️ Quỳnh - 21.08.2025</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="We are getting hitched - The dates are 21st & 29th of October '23 and we would like you to be a part of it." />
-	<meta name="keywords" content="Bang,Quynh,wedding,website,rsvp" />
-	<meta name="author" content="Bang ❤️ Quynh" />
+	<meta name="description" content="Văn Bàng &amp; Như Quỳnh - Our wedding date: 2025-08-21 | Một cuộc hôn nhân thành công đòi hỏi phải yêu nhiều lần, luôn ở cùng một người. " />
+	<meta name="keywords" content="Bàng,Quỳnh,wedding,website,rsvp" />
+	<meta name="author" content="Bàng ❤️ Quỳnh" />
 
   	<!-- Facebook and Twitter integration -->
 	<meta property="og:image" content="images/og.jpg"/>
-	<meta property="og:site_name" content="Bang ❤️ Quynh - 21.08.2025">
-    <meta property="og:title" content="Bang ❤️ Quynh - 21.08.2025">
-    <meta property="og:description" content="We are getting hitched - The dates are 21st & 29th of October '23 and we would like you to be a part of it.">
+	<meta property="og:site_name" content="Bàng ❤️ Quỳnh - 21.08.2025">
+    <meta property="og:title" content="Bàng ❤️ Quỳnh - 21.08.2025">
+    <meta property="og:description" content="Văn Bàng &amp; Như Quỳnh - Our wedding date: 2025-08-21 | Một cuộc hôn nhân thành công đòi hỏi phải yêu nhiều lần, luôn ở cùng một người. ">
 	<!-- Size of image. Any size up to 300. Anything above 300px will not work in WhatsApp -->
     <meta property="og:image:width" content="300">
     <meta property="og:image:height" content="300">
     <!-- Website to visit when clicked in fb or WhatsApp-->
-    <meta property="og:url" content="https://we.Bangjos.com">
+    <meta property="og:url" content="https://we.Bàngjos.com">
 	<meta property="og:type" content="website"/>
     <meta property="og:image:type" content="image/jpeg">
 
@@ -87,9 +87,9 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>Bang &amp; Quynh</h1>
+							<h1>Bàng &amp; Quỳnh</h1>
 							<br>
-							<img src="images/fprint.png" alt="Bang + Quynh"> 
+							<img src="images/fprint.png" alt="Bàng + Quỳnh"> 
 							<h2>21.8.2025</h2>
 							<h2>"I have found the one whom my soul loves." <br>Song of Solomon 3:4</h2>
 							<div class="flipTimebox">
@@ -242,12 +242,29 @@
 	<!-- Main -->
 	<script src="js/main.js"></script>
 	<!-- Music -->
-	<iframe width="0"
-			height="0"
-			scrolling="no"
-			frameborder="no"
-			allow="autoplay"
-			src="https://soundcloud.com/user-948647771/ngay-dau-tien-duc-phuc-official-music-valentine-2022">
-	</iframe>
+	<script type="text/javascript">
+		function sanitizeJsonString(jsonString) {
+			return jsonString
+				.replace(/[\n\r\t]/g, '')
+				.replace(/[\u0000-\u001F]+/g, '')
+				.replace(/,(\s*[}\]])/g, '$1');
+		}
+		function parseJsonRecursively(jsonString) {
+			let sanitizedString = sanitizeJsonString(jsonString);
+			let parsed = JSON.parse(sanitizedString);
+			Object.keys(parsed).forEach(function (key) {
+				try {
+					let checkValue = JSON.parse(parsed[key]);
+					if (checkValue && checkValue.constructor === Object) {
+						parsed[key] = checkValue;
+					}
+				} catch (e) {
+
+				}
+			});
+			return parsed;
+		}
+		let biicore = parseJsonRecursively('{"template_id":"62ef3cfd4c248a18ec5a9b5a","templatePremium":false,"themeRoot":"https:\/\/bangquynh.iwedding.info\/templates\/template18","webroot":"https:\/\/bangquynh.iwedding.info","coreSite":"https:\/\/biihappy.com","webToken":"686938a77d88468bee0a7326","isPremium":false,"bgMusic":"https:\/\/cdn.biihappy.com\/ziiweb\/wedding-musics\/BeautifulInWhite-ShaneFilan-524801.mp3","alert":"[]","effect":"{\\\"type\\\":\\\"heart\\\"}","logo":"https:\/\/iwedding.info\/common\/imgs\/bii.png?v=20210131","url_landing_page":"https:\/\/biihappy.com\/iwedding","isAutoPlay":false,"footer_title":"iWedding | N\u1ec1n t\u1ea3ng t\u1ea1o website \u0111\u00e1m c\u01b0\u1edbi mi\u1ec5n ph\u00ed t\u1eeb Biihappy","footer_title_mobile":"T\u1ea1o website \u0111\u00e1m c\u01b0\u1edbi mi\u1ec5n ph\u00ed"}');
+	</script>
 	</body>
 </html>
