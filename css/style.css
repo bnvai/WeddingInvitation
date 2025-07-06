@@ -1803,5 +1803,233 @@ form label {
   opacity: 0;
 }
 
+.footer {
+    position: relative
+}
+
+.footer-widgets {
+    position: relative;
+    min-height: 465px;
+    margin-top: 50px;
+}
+
+.footer-note {
+    position: relative;
+    /*padding: 135px 0;*/
+    text-align: center;
+    z-index: 1;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 35px;
+}
+
+.footer-note:before {
+    content: "";
+    background: url(../images/footer/footer-c.png);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    width: 400px;
+    height: 85%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.footer-note h1 {
+    color: #fbfbfb;
+    position: relative
+}
+
+.footer-note p {
+    color: #fbfbfb;
+    font-size: 25px;
+    margin: 15px 0;
+    position: relative;
+    font-family: great vibes, cursive;
+    letter-spacing: 1px;
+}
+
+.footer-copyright {
+    font-size: 14px;
+    background: #fbfbfb96;
+    color: #333;
+    font-weight: 600;
+    padding: 30px 0;
+    line-height: 1.5;
+    text-align: center;
+    z-index: 1;
+    display: inline-block;
+    width: 100%
+}
+
+.footer-copyright ul.social-media {
+    margin: 22px 0 28px;
+    padding: 0;
+    text-align: center
+}
+
+.footer-copyright ul.social-media li {
+    display: inline-block
+}
+
+.footer-copyright ul.social-media li a {
+    display: block;
+    color: #666;
+    line-height: 2.2;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 50%;
+    border: 2px solid #666;
+    margin-right: 6px;
+    transition: all ease-in-out .5s
+}
+
+.footer-copyright ul.social-media li a:hover {
+    border-color: #eb262a;
+    color: #eb262a;
+    transition: all ease-in-out .5s
+}
+
+.footer-copyright a {
+color: #ec2328
+}
+
+.footer-copyright p {
+    margin-bottom: 0;
+    line-height: inherit
+}
+
+.footer-copyright p.para {
+    font-size: 28px;
+    font-weight: 500;
+    font-family: great vibes, cursive
+}
+
+.footer-2 .footer {
+    position: relative;
+    background: #1b1b1b;
+    color: #bbb
+}
+
+.footer-2 .footer .footer-top {
+    padding: 70px 0
+}
+
+.footer-2 .footer .footer-box p {
+    margin-bottom: 20px;
+    color: #bbb
+}
+
+.footer-2 .footer .footer-box .aboutus-info ul li i {
+    padding: 0 10px 0 0
+}
+
+.footer-2 .footer .footer-box h5 {
+    margin-bottom: 30px;
+    color: #fff;
+    text-transform: capitalize
+}
+
+.footer-2 .footer ul {
+    padding-left: 0;
+    list-style: none;
+    margin: 0
+}
+
+.footer-2 .footer .footer-box ul.menu li a {
+    line-height: 2.5;
+    display: inline-block;
+    color: #bbb;
+    transition: all .5s
+}
+
+.footer-2 .footer .footer-box ul.menu li a:hover {
+    color: #eb262a;
+    padding-left: 10px;
+    transition: all .5s
+}
+
+.footer-2 #widget-subscriptions .subscribe-inner .newsletter {
+    margin-bottom: 30px
+}
+
+.footer-2 #widget-subscriptions .subscribe-inner form {
+    position: relative;
+    clear: both;
+    overflow: hidden;
+    width: 100%;
+    display: block
+}
+
+.footer-2 #widget-subscriptions form input.subscribe_email {
+    width: 100%;
+    display: block;
+    min-height: 40px;
+    padding-left: 15px;
+    padding-right: 0;
+    border: none;
+    border-bottom: 1px solid #666;
+    background: 0 0;
+    color: inherit
+}
+
+.footer-2 #widget-subscriptions form button.button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 14px;
+    padding-right: 0;
+    padding-left: 0;
+    width: 40px;
+    height: 40px;
+    outline: none;
+    background: 0 0;
+    border-radius: 0;
+    color: #bbb;
+    border: none;
+    box-shadow: none
+}
+
+.footer-2 .footer .footer-bottom {
+    padding: 30px 0;
+    border-top: 1px solid #333
+}
+
+.footer-2 .footer .footer-bottom span a {
+    color: #eb262a
+}
+
+.footer-2 .social-icons li {
+    display: inline-block;
+    padding: 0 5px;
+    list-style: none;
+    text-align: center
+}
+
+.footer-2 .social-icons li a {
+    color: #bbb
+}
+
+.footer-2 .social-icons li a:hover {
+    color: #fbfbfb
+}
+
+@media(max-width:911px) {
+    .footer-2 aside.footer-box {
+        margin-bottom: 30px
+    }
+
+    .footer-2 .footer .footer-top {
+        padding-bottom: 40px
+    }
+}
+
 /*# sourceMappingURL=style.css.map */
 
