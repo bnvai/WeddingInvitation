@@ -8,6 +8,12 @@
         height: 150px
     }
 
+    .couple-img img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
     .about-couple {
         width: calc(100% - 130px);
     }
@@ -1251,6 +1257,12 @@
         height: 280px !important;
         margin-bottom: 20px;
         float: none !important
+    }
+
+    .couple-img img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
     }
 
     .cp-detail, .expand-story p {

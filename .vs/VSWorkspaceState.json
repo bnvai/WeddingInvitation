@@ -1,12 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.github",
     "\\css",
-    "\\fonts",
-    "\\js",
-    "\\sass\\bootstrap"
+    "\\images",
+    "\\images\\rsvp",
+    "\\js"
   ],
-  "SelectedNode": "\\js\\google_map.js",
+  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
 }
