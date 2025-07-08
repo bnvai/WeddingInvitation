@@ -15,5 +15,7 @@ function createHeart() {
 }
 
 setInterval(() => {
-    createHeart();
-}, 300);
+    if (Math.random() < 0.7) {
+        createHeart();
+    }
+}, 500);
